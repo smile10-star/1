@@ -1,0 +1,10 @@
+==================== 文件：.gitignore ====================
+.env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.vscode/
+.idea/
+*.log
+.DS_Store
