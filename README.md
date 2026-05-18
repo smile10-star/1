@@ -33,5 +33,3 @@ streamlit run src/ui/app.py
 Docker 一键启动
 bash
 docker-compose up -d
-许可证
-MIT
