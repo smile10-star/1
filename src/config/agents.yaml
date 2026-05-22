@@ -1,0 +1,25 @@
+==================== 文件：src/config/agents.yaml ====================
+requirement_agent:
+role: "需求分析专家"
+goal: "将模糊需求转化为结构化需求树"
+model: "openai/gpt-4"
+
+architect_agent:
+role: "系统架构师"
+goal: "设计可扩展的系统架构"
+model: "anthropic/claude-3-opus"
+
+risk_agent:
+role: "风控校验官"
+goal: "对抗性审视架构，识别风险"
+model: "deepseek/deepseek-chat"
+
+prd_agent:
+role: "技术文档撰写师"
+goal: "生成结构化PRD文档"
+model: "openai/gpt-4"
+
+orchestrator_agent:
+role: "设计评审主席"
+goal: "组织多智能体讨论并融合方案"
+model: "openai/gpt-4"
